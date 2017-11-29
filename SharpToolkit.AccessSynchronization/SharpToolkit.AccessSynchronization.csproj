@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Dmitriy Sorkin</Authors>
+    <Company>SharpToolkit</Company>
+    <Product>SharpToolkit</Product>
+    <Description>A library for object graph access synchronization in multithreaded environment.</Description>
+    <PackageProjectUrl>https://github.com/SharpToolkit/AccessSynchronization</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/SharpToolkit/AccessSynchronization/blob/master/LICENSE</PackageLicenseUrl>
+    <Version>0.9.0</Version>
+    <AssemblyVersion>0.9.0.0</AssemblyVersion>
+    <FileVersion>0.9.0.0</FileVersion>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <LangVersion>7.1</LangVersion>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <LangVersion>7.1</LangVersion>
+  </PropertyGroup>
+
+</Project>

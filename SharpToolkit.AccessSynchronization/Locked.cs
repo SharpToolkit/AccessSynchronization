@@ -40,6 +40,8 @@ namespace SharpToolkit.AccessSynchronization
         public bool IsExclusevelyUnlocked => this.@lock.IsExclusivelyLocked;
         public bool IsUpgradeableUnlocked => this.@lock.IsUpgradeableLocked;
 
+        public Locked(T model) : this(model, Enumerable.Empty<LockedObject>()) { }
+
         public Locked(
             T model,
             IEnumerable<LockedObject> lockables)

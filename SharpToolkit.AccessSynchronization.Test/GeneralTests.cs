@@ -5,7 +5,7 @@ using System.Linq;
 namespace SharpToolkit.AccessSynchronization.Test
 {
     [TestClass]
-    public class Tests
+    public class GeneralTests
     {
         Locked<Root> root;
         List<Locked<Parent>> parents;

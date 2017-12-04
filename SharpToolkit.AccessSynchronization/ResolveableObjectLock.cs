@@ -45,7 +45,7 @@ namespace SharpToolkit.AccessSynchronization
                     throw new InvalidOperationException("Thread id collision.");
                 }
 #else
-                this.threadsLocksTrack.TryAdd(threadId, track);
+                threadsLocksTrack.TryAdd(threadId, track);
 #endif
             }
 

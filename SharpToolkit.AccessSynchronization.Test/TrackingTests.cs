@@ -1,5 +1,5 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using SharpToolkit.Extensions.Diagnostics.Testing;
+using SharpToolkit.Testing;
 using System;
 using System.Collections.Concurrent;
 using System.Collections.Generic;
